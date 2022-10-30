@@ -8,7 +8,7 @@ const app = express();
 
 app.use(json());
 
-app.use("/api/v1", routes);
+app.use("/", routes);
 
 const port = process.env.PORT || 3000;
 
